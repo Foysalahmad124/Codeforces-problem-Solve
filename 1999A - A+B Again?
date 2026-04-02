@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int n;
+cin>>n;
+while(n--)
+{
+    int t;
+    cin>>t;
+    int sum = (t / 10) + (t % 10);
+    std::cout << sum << std::endl;
+}
+    return 0;
+}
