@@ -1,0 +1,17 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    int i;
+long long v[4];
+for(i=0;i<4;i++)
+std::cin >> v[i];
+std::sort(v,v+4);
+long long s=v[3];
+long long a=s-v[2];
+long long b=s-v[1];
+long long c=s-v[0];
+cout << a << " " << b << " " << c << endl;
+    return 0;
+}
