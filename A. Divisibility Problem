@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    while(n--){
+    long long a, b,move;
+    cin >> a >> b;
+      move = (a % b == 0) ? 0 : b - (a % b);
+    std::cout << move << std::endl;
+}
+
+    return 0;
+
+}
