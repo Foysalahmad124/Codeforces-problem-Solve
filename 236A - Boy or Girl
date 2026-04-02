@@ -1,0 +1,18 @@
+#include <iostream>
+#include <set>
+using namespace std;
+
+int main(){
+    string s;
+    cin >> s;
+
+    set<char> c(s.begin(), s.end()); 
+    if(c.size() % 2 == 1){
+        cout << "IGNORE HIM!" << endl; // Male
+    }
+    else{
+        cout << "CHAT WITH HER!" << endl; // Female
+    }
+
+    return 0;
+}
