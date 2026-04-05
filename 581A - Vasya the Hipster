@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cin >> a >> b;
+    int f,red,blue,sum;
+    f=std::min(a, b);
+    red=a-f;
+    blue=b-f;
+    sum=(red+blue)/2;
+    std::cout <<  f << " " << sum << std::endl;
+
+
+    return 0;
+}
